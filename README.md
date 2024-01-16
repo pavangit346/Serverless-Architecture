@@ -81,15 +81,18 @@ Instructions:
    - Solution
    - 
 - Created two ec2 instances with tag manually - tag:Auto-Start and tag:Auto-Stop
-Verfied that instances are running 
-At IAM, created a role, and attached AmazonEc2FullAccess
-Created a Lambda Function with Python 3.x and attached the IAM role that was created for the Lambda function.
-Wrote te code using boto3 module, and https://boto3.amazonaws.com/v1/documentation
-Deployed the Code on the Lambda function and configured the test configuration.
-Manually tested the function and run.
-Lambda function execution went successful-
-Resultant, The function is stopping the ec2 instance with tag Auto-Stop and starting the instances with tag Auto-Start
-Added all Artifacts to the repository.
+      i-0bbc126416ea8fff8 -- Q1-Auto-Start-Inst-Pavan
+      i-09c798b90bc6b8e0c -- Q2-Auto-Stop-Inst-Pavan
+- Verfied that instances are running 
+- At IAM, created a role, and attached AmazonEc2FullAccess
+     -  Lambda_IAM_EC2_Full_Access : IAM Role
+- Created a Lambda Function with Python 3.x and attached the IAM role that was created for the Lambda function.
+- Wrote te code using boto3 module, and https://boto3.amazonaws.com/v1/documentation
+- Deployed the Code on the Lambda function and configured the test configuration.
+- Manually tested the function and run.
+- Lambda function execution went successful-
+- Resultant, The function is stopping the ec2 instance with tag Auto-Stop and starting the instances with tag Auto-Start
+- Added all Artifacts to the repository.
 
 
 
