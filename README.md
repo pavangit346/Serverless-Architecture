@@ -42,6 +42,6 @@ Able to track all the buckets are Encrypted.
 Added the comments to the code.
 
 Attached all the snapshots.
-Boto3 coo
+Boto3 code.
 
 
